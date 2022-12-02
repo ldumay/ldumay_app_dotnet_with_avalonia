@@ -1,10 +1,19 @@
 # Ldumay - App - .Net with Avalonia UI
 
-Création d'une applicaiton C# avec Avalonia UI
+Création d'une applicaiton C# avec Avalonia UI.
 
 - Site officiel : [avaloniaui.net](https://avaloniaui.net/)
 - Documentation complète : [docs.avaloniaui.net](https://docs.avaloniaui.net/)
 - Documentation complète de démarrage: [docs.avaloniaui.net](https://docs.avaloniaui.net/docs/getting-started)
+
+> Supporté sur :
+> 
+> <img alt="on_Windows" src="_img/avalonia/avalonia_windows.svg" width="40px"/>
+> <img alt="on_Windows" src="_img/avalonia/avalonia_macos.svg" width="40px"/>
+> <img alt="on_Windows" src="_img/avalonia/avalonia_tux.svg" width="40px"/>
+> <img alt="on_Windows" src="_img/avalonia/avalonia_android.svg" width="40px"/>
+> <img alt="on_Windows" src="_img/avalonia/avalonia_ios.svg" width="40px"/>
+> <img alt="on_Windows" src="_img/avalonia/avalonia_webasm.svg" width="40px"/>
 
 ## 1 - Pré-requis
 
