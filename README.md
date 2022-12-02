@@ -1,4 +1,4 @@
-# Ldumay - App - .Net with Avalonia UI
+# Ldumay - App - .Net with Avalonia UI <a name="top"></a>
 
 Création d'une applicaiton C# avec Avalonia UI.
 
@@ -15,13 +15,28 @@ Création d'une applicaiton C# avec Avalonia UI.
 > <img alt="on_Windows" src="_img/avalonia/avalonia_ios.svg" width="40px"/>
 > <img alt="on_Windows" src="_img/avalonia/avalonia_webasm.svg" width="40px"/>
 
-## 1 - Pré-requis
+## Sommaire
+
+- 1 - [Pré-requis](#1)
+- 2 - [Création d'une application Avalonia UI](#2)
+  - 2.1 - [Importation d'un template Avalonia](#2-1)
+  - 2.2 - [Création d'une application](#2-2)
+- 3 - [Démarrer l'application](#3)
+  - 3.1 - [Démarrer l'application via ligne de commande](#3-1)
+  - 3.2 - [Démarrer l'application via Rider EAP7](#3-2)
+    - 3.2.1 - [Installation de Rider EAP7 avec les extensions pour Avalonia](#3-2-1)
+    - 3.2.2 - [Démarrage de l'application via Rider EAP7](#3-2-2)
+  - 3.3 - [Démarrer l'application via Visual Studio](#3-3)
+    - 3.3.1 - [Installation de Visual Studio avec les extensions pour Avalonia](#3-3-1)
+    - 3.3.2 - [Démarrage de l'application via Visual Studio](#3-3-2)
+
+## 1 - Pré-requis - [Haut de page](#top) <a name="1"></a>
 
 - Dotnet : **6.0**
 
-## 2 - Création d'une application Avalonia UI
+## 2 - Création d'une application Avalonia UI - [Haut de page](#top) <a name="2"></a>
 
-### 2.1 - Importation d'un template Avalonia
+### 2.1 - Importation d'un template Avalonia - [Haut de page](#top) <a name="2-1"></a>
 
 ```
 dotnet new --install Avalonia.Templates
@@ -45,15 +60,15 @@ Avalonia UserControl                 avalonia.usercontrol       [C#],F#  Desktop
 Avalonia Window                      avalonia.window            [C#],F#  Desktop/Xaml/Avalonia/Windows/Linux/macOS
 ```
 
-### 2.2 - Création d'une application
+### 2.2 - Création d'une application - [Haut de page](#top) <a name="2-2"></a>
 
 ```
 dotnet new avalonia.app -o MyApp
 ```
 
-## 3 - Démarrer l'application
+## 3 - Démarrer l'application - [Haut de page](#top) <a name="3"></a>
 
-### 3.1 - Démarrer l'application via ligne de commande
+### 3.1 - Démarrer l'application via ligne de commande - [Haut de page](#top) <a name="3-1"></a>
 
 Il est possible de démarrer l'application via ligne de commande de la manière suivante :
 
@@ -62,9 +77,9 @@ cd MyApp
 dotnet run
 ```
 
-### 3.2 - Démarrer l'application via Rider EAP7
+### 3.2 - Démarrer l'application via Rider EAP7 - [Haut de page](#top) <a name="3-2"></a>
 
-#### 3.2.1 - Installation de Rider EAP7 avec les extensions pour Avalonia
+#### 3.2.1 - Installation de Rider EAP7 avec les extensions pour Avalonia - [Haut de page](#top) <a name="3-2-1"></a>
 
 L'IDE JetBrains Rider a un support intégré pour Avalonia XAML [**à partir de la version 2020.3**](https://www.jetbrains.com/rider/whatsnew/2020-3/#version-2020-3-avalonia-support), y compris un support de première classe pour les fonctionnalités XAML spécifiques à Avalonia et les inspections de code personnalisées.
 
@@ -73,7 +88,7 @@ L'IDE JetBrains Rider a un support intégré pour Avalonia XAML [**à partir de 
 Cependant, il est nécessaire d'installer **l'édition EAP7 de Rider à partir de la version 2022.3 et ultérieur**.
 - [Cliquer ici](https://plugins.jetbrains.com/plugin/14839-avaloniarider/) pour vérifier si votre version de Rider est compatible avec le plugin.
 
-#### 3.2.2 - Démarrage de l'application via Rider EAP7
+#### 3.2.2 - Démarrage de l'application via Rider EAP7 - [Haut de page](#top) <a name="3-2-2"></a>
 
 Il suffit d'ouvrir **le projet** via Rider.
 
@@ -83,9 +98,9 @@ Ensuite, la détection doit se faire naturellement.
 
 ![img](/_img/004.png)
 
-### 3.3 - Démarrer l'application via Visual Studio
+### 3.3 - Démarrer l'application via Visual Studio - [Haut de page](#top) <a name="3-3"></a>
 
-#### 3.3.1 - Installation de Visual Studio avec les extensions pour Avalonia
+#### 3.3.1 - Installation de Visual Studio avec les extensions pour Avalonia - [Haut de page](#top) <a name="3-3-1"></a>
 
 Pour Visual Studio, Avalonia est déjà disponible en extension.
 
@@ -99,7 +114,7 @@ Pour installer l'extension Avalonia dans Visual Studio :
 
 ![img](/_img/001.png)
 
-#### 3.3.2 - Démarrage de l'application via Visual Studio
+#### 3.3.2 - Démarrage de l'application via Visual Studio - [Haut de page](#top) <a name="3-3-2"></a>
 
 Il suffit d'ouvrir **le projet** via Visual Studio.
 
