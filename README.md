@@ -36,20 +36,26 @@ Avalonia UserControl                 avalonia.usercontrol       [C#],F#  Desktop
 Avalonia Window                      avalonia.window            [C#],F#  Desktop/Xaml/Avalonia/Windows/Linux/macOS
 ```
 
-## 2.2 - Création d'une application
+### 2.2 - Création d'une application
 
 ```
 dotnet new avalonia.app -o MyApp
 ```
 
-## 2.3 - Démarrer l'application
+## 3 - Démarrer l'application
+
+### 3.1 - Démarrer l'application via ligne de commande
+
+Il est possible de démarrer l'application via ligne de commande de la manière suivante :
 
 ```
 cd MyApp
 dotnet run
 ```
 
-## 2.3 - IDE - IntelliJ Rider - Installer les extensions Avalonia
+### 3.2 - Démarrer l'application via Rider EAP7
+
+#### 3.2.1 - Installation de Rider EAP7 avec les extensions pour Avalonia
 
 L'IDE JetBrains Rider a un support intégré pour Avalonia XAML [**à partir de la version 2020.3**](https://www.jetbrains.com/rider/whatsnew/2020-3/#version-2020-3-avalonia-support), y compris un support de première classe pour les fonctionnalités XAML spécifiques à Avalonia et les inspections de code personnalisées.
 
@@ -58,7 +64,19 @@ L'IDE JetBrains Rider a un support intégré pour Avalonia XAML [**à partir de 
 Cependant, il est nécessaire d'installer **l'édition EAP7 de Rider à partir de la version 2022.3 et ultérieur**.
 - [Cliquer ici](https://plugins.jetbrains.com/plugin/14839-avaloniarider/) pour vérifier si votre version de Rider est compatible avec le plugin.
 
-## 2.3 - IDE - Visual Studio - Installer les extensions Avalonia
+#### 3.2.2 - Démarrage de l'application via Rider EAP7
+
+Il suffit d'ouvrir **le projet** via Rider.
+
+![img](/_img/003.png)
+
+Ensuite, la détection doit se faire naturellement.
+
+![img](/_img/004.png)
+
+### 3.3 - Démarrer l'application via Visual Studio
+
+#### 3.3.1 - Installation de Visual Studio avec les extensions pour Avalonia
 
 Pour Visual Studio, Avalonia est déjà disponible en extension.
 
@@ -71,3 +89,13 @@ Pour installer l'extension Avalonia dans Visual Studio :
 2. Puis d'installer les extensions **Avalonia** (tel que sur l'image si dessus).
 
 ![img](/_img/001.png)
+
+#### 3.3.2 - Démarrage de l'application via Visual Studio
+
+Il suffit d'ouvrir **le projet** via Visual Studio.
+
+![img](/_img/002.png)
+
+Ensuite, la détection doit se faire naturellement.
+
+![img](/_img/005.png)
