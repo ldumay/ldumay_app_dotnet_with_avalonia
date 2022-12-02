@@ -18,6 +18,24 @@ Création d'une applicaiton C# avec Avalonia UI
 dotnet new --install Avalonia.Templates
 ```
 
+De plus, la commande affiche les templates installés.
+
+```
+Les packages de modèles suivants seront installés :
+
+Opération réussie : Avalonia.Templates::0.10.18.2 a installé les modèles suivants :
+Nom du modèle                        Nom court                  Langue   Balises
+-----------------------------------  -------------------------  -------  -----------------------------------------
+Avalonia .NET Core App               avalonia.app               [C#],F#  Desktop/Xaml/Avalonia/Windows/Linux/macOS
+Avalonia .NET Core MVVM App          avalonia.mvvm              [C#],F#  Desktop/Xaml/Avalonia/Windows/Linux/macOS
+Avalonia Cross Platform Application  avalonia.xplat             [C#],F#  Desktop/Xaml/Avalonia/Web/Mobile
+Avalonia Resource Dictionary         avalonia.resource                   Desktop/Xaml/Avalonia/Windows/Linux/macOS
+Avalonia Styles                      avalonia.styles                     Desktop/Xaml/Avalonia/Windows/Linux/macOS
+Avalonia TemplatedControl            avalonia.templatedcontrol  [C#]     Desktop/Xaml/Avalonia/Windows/Linux/macOS
+Avalonia UserControl                 avalonia.usercontrol       [C#],F#  Desktop/Xaml/Avalonia/Windows/Linux/macOS
+Avalonia Window                      avalonia.window            [C#],F#  Desktop/Xaml/Avalonia/Windows/Linux/macOS
+```
+
 ## 2.2 - Création d'une application
 
 ```
