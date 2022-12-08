@@ -1,15 +1,65 @@
-<Window xmlns="https://github.com/avaloniaui"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        x:Class="MyApp.MainWindow"
-		Title="MyApp"
-		HorizontalContentAlignment="Center"
-		VerticalContentAlignment="Center"
-		Width="800" Height="500">
-	<!-- Add label -->
-	<Label>Welcome to Avalonia!</Label>
+<Window
+	xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="500"
+	Width="800" Height="500"
+	x:Class="MyApp.MainWindow"
+	Title="MyApp">
 
-	<!-- Add button to window -->
-	<Button Name="button" Click="button_Click">Click Me!</Button>
+	<!--
+		Modèle de fenêtre
+		Source : 
+			==> https://www.youtube.com/watch?v=rw9bH97uA-Q
+			==> https://docs.avaloniaui.net/docs/controls
+	-->
+	<Grid RowDefinitions="Auto, *, Auto">
+
+		<!-- Title Bar -->
+		<Grid Grid.Row="0" Background="Orange" Height="40" ColumnDefinitions="Auto, Auto, *, Auto, Auto">
+			<Rectangle Grid.Column="0" Fill="Red" Width="40"></Rectangle>
+			<Rectangle Grid.Column="1" Fill="Blue" Width="40"></Rectangle>
+			<StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+				<Label FontWeight="Black">AVALONIA</Label>
+				<Label>LOUDNESS METER</Label>
+			</StackPanel>
+			<Rectangle Grid.Column="3" Fill="Green" Width="40"></Rectangle>
+			<Rectangle Grid.Column="4" Fill="Yellow" Width="40"></Rectangle>
+		</Grid>
+
+		<!-- Main area -->
+		<Grid Grid.Row="1" Background="Gray">
+			
+			<!-- Add label -->
+			<Label Grid.Row="0" HorizontalAlignment="Center" Padding="10">Welcome to Avalonia!</Label>
+			<Grid Grid.Row="1" ColumnDefinitions="Auto, Auto, *" Background="#333">
+				<!-- Volume Bar -->
+				<Rectangle Grid.Column="0" Fill="Purple" Width="110"></Rectangle>
+				<!-- Details Panel -->
+				<Rectangle Grid.Column="1" Fill="#CCC" Width="140"></Rectangle>
+				<!-- Graph -->
+				<Rectangle Grid.Column="2" Fill="Black"></Rectangle>
+			</Grid>
+			
+		</Grid>
+
+		<!-- Other -->
+		<Grid Grid.Row="2" Background="Gray">
+
+			<!-- Add button to window -->
+			<Button Name="button_try" Click="button_Click">Click Me!</Button>
+			
+		</Grid>
+
+		<!-- Bottom -->
+		<Grid Grid.Row="3" Margin="10" ColumnDefinitions="Auto, Auto, *, Auto, Auto" Background="#CCC">
+
+			<Button Grid.Row="0" Grid.Column="0" Name="button_stereo" Margin="0, 0, 8, 0">Stereo</Button>
+			<Button Grid.Row="0" Grid.Column="1" Name="button_youtube">Youtube</Button>
+
+		</Grid>
+		
+	</Grid>
+	
 </Window>
