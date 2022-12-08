@@ -123,3 +123,8 @@ Il suffit d'ouvrir **le projet** via Visual Studio.
 Ensuite, la détection doit se faire naturellement.
 
 ![img](/_img/005.png)
+
+## 4 - Guide d'apprentissage
+
+- Tuto YouTube
+  - [Avalonia UI](https://www.youtube.com/playlist?list=PLrW43fNmjaQWMhFHxS1jpQ34TkHroHJLb)
